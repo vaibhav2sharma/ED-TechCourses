@@ -1,16 +1,37 @@
-<<<<<<< HEAD
-# React + Vite
+# EdTech Course Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React-based** course management application integrated with **Firebase Realtime Database** for storing and managing courses. It allows users to view, add, update, and delete courses. The app uses **React Context API** for state management and **Axios** for API calls to Firebase.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Course Management**: Add, update, view, and delete courses.
+- **User Authentication**: Authentication flow to access certain protected routes.
+- **Firebase Integration**: Stores courses in **Firebase Realtime Database**.
+- **Loading/Error Handling**: Displays loading and error states during data fetching.
+- **Routing**: Uses **React Router** for navigating between pages.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ED-TechCourses
->>>>>>> 9090291f87dd1fba75064dda41c5d0c9b7ea65fc
+- **Frontend**: React
+- **State Management**: React Context API
+- **Database**: Firebase Realtime Database
+- **HTTP Client**: Axios
+- **Routing**: React Router
+- **Authentication**: Firebase Authentication (optional, if used)
+
+## Setup
+
+### Prerequisites
+
+Before running the project locally, ensure you have the following installed:
+
+- **Node.js** (v14 or higher)
+- **npm** (v6 or higher)
+
+### Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/ED-TechCourses.git
+   cd ED-TechCourses
